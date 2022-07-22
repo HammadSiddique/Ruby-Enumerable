@@ -7,8 +7,8 @@ class MyList
     @list = elems
   end
 
-  def each(&block)
-    @list.each(&block)
+  def each(&sect)
+    @list.each(&sect)
   end
 end
 
